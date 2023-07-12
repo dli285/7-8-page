@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'TT Hoves';
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    gap: calc(2.2vw + 11.7px);
+    margin-left: calc(10.7vw - 16.5px);
+    margin-top: calc(11vw + 18.5px);
+    margin-bottom: calc(11vw + 18.5px);
+
+}
+.h{
+    width: calc(44vw + 161.8px);
+    font-size: calc(2.7vw + 24px) ;
+    font-weight: 500;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+}
+.info{
+    width: calc(60vw + 101px);
+    font-size: calc(1vw + 14.3px);
+}
+img{
+    width: calc(57.2vw + 16.3px);
+}
+.images{
+    height: 200%;
+    display: grid;
+    grid-template-columns: repeat(12 30px);
+    position: relative;
+    grid-template-rows: 16% 20% 16% 1fr;
+    grid-template-columns: 7%  23% 1fr ;
+}
+.image1{
+    grid-column-start: 2;
+}
+.image2{
+    grid-row-start: 2;
+    grid-column-start: 3;
+}
+.image3{
+    grid-row-start: 3;
+    grid-column-start: 1;
+}
